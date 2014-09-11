@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "JenkinsLogin",
+  "description": "Redirect Jenkins when its session handling fails",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery.js", "redirect.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [ "<all_urls>" ]
+}
