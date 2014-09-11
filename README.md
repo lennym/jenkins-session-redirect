@@ -13,4 +13,4 @@ Jenkins' session handling sucks, and will often leave you on a screen saying you
 4. ???
 5. Profit!!
 
-*You may wish to update the `content_scripts.matches` property in manifest.json to restrict to only running on your jenkins instance - i.e. `"matches": ["https://jenkins.mydomain.com/*"]`*
+You may wish to update the `content_scripts.matches` property in manifest.json to restrict to only running on your jenkins instance - i.e. ```"matches": ["https://jenkins.mydomain.com/*"]```
